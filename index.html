@@ -5,46 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <title>Dashboard</title>
 </head>
 <body>
-    <div class="container">
+<div class="container">
     <div class="sidebar">
-        <h1>Sidebar</h1>
+        <div class="title"><i class="bi bi-rocket-takeoff-fill"></i><p>Sidebar</p></div>
         <div class="nav">
             <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>Tasks</li>
-                <li>Channels</li>
+                <li><i class="bi bi-house-fill"></i>Home</li>
+                <li><i class="bi bi-person-circle"></i>Profile</li>
+                <li><i class="bi bi-chat-left-dots"></i>Messages</li>
+                <li><i class="bi bi-card-checklist"></i>Tasks</li>
+                <li><i class="bi bi-buildings"></i>Communities</li>
             </ul>
         </div>
         <div class="options">
             <ul>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li><i class="bi bi-gear-wide"></i>Settings</li>
+                <li><i class="bi bi-telephone-fill"></i>Support</li>
+                <li><i class="bi bi-shield-shaded"></i>Privacy</li>
             </ul>
         </div>
     </div>
     <div class="header">
         <div class="head1">
+            <div>
+            <i class="bi bi-search"></i>
             <input type="text">
-            <span>notifications</span>
-            <span>icon</span>
+            </div>
+            <div>
+            <i class="bi bi-bell"></i>
+            <i class="bi bi-person-square"></i>
             <span>My Name</span>
+            </div>
         </div>
         <div class="head2">
-            <span>icon</span>
+            <div>
+            <i class="bi bi-person-square"></i>
             <span>My Name</span>
-            <button>a</button>
-            <button>a</button>
-            <button>a</button>
+            </div>
+            <div>
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+            </div>
         </div>
     </div>
-    <div class="content">
-        <div class="card-container">
+  
+    <div class="contento">
+        <div class="card-container">          
             <div class="card">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor incidunt illum accusamus sed pariatur modi in quo eveniet officia voluptas voluptatem numquam, natus delectus omnis praesentium eos possimus tempora debitis?</p>
             </div>
@@ -63,23 +74,36 @@
             <div class="card">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor incidunt illum accusamus sed pariatur modi in quo eveniet officia voluptas voluptatem numquam, natus delectus omnis praesentium eos possimus tempora debitis?</p>
             </div>
-            
         </div>
         <div class="notifications">
             <ul>
-                <li>notification1</li>
-                <li>notification2</li>
-                <li>notification3</li>
+                <li class="head">Announcements</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nesciunt</li>
+                <hr>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nesciunt</li>
+                <hr>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nesciunt</li>
             </ul>
         </div>
         <div class="trending">
             <ul>
-                <li><i></i>t1</li>
-                <li><i></i>t2</li>
-                <li><i></i>t3</li>
+                
+                <li class="head">Trending</li>
+                <div>
+                <i class="bi bi-emoji-sunglasses-fill"></i>
+                <li></i>@pancake_CEO<br>I run this place</li>
+                </div>
+                <div>
+                    <i class="bi bi-code-slash"></i>
+                <li>@robodev<br>Just a regular dev. With very hot takes</li>
+                </div>
+                <div>
+                    <i class="bi bi-briefcase-fill"></i>
+                <li>@pancake_maker<br>IR Head. I love coffee</li>
+                </div>
             </ul>
         </div>
     </div>
-    </div>
+</div>
 </body>
 </html>
